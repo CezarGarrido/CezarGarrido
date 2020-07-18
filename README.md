@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	me := profile.NewBio("Cezar")
+	me := profile.NewBio("Cezar G.B")
 
 	stack := profile.NewStack(
 		[]string{"Go"},
