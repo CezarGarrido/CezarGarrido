@@ -9,8 +9,8 @@ import (
 func main() {
 	me := profile.NewBio("Cezar G.B")
 	stack := profile.NewStack(
-		[]string{"Go"},
-		[]string{"Postgres"},
+		[]string{"Go", "Elixir", "Javascript", "C"},
+		[]string{"Postgres", "Mysql", "SQLite", "MongoDB"},
 		[]string{"Docker"},
 		[]string{"Vue.js"},
 	)
